@@ -665,30 +665,5 @@ while True:   #this is the main loop, and only ends when the gameOver() function
     #(count)
 
 
-'''
-PROBLEMS TO FIX:
-1) The raspberry has to be spawned on square where the snake does not exist   #solved
-2) Stop the snake bumping into itself                                         #solved
-3) improve desion makign of snake when it moves away from berry               #solved
-4) The snake hits side wall                                                   #solved
-5) giving problem in the four corner cases                                    #solved
-6) Making game_board size to 10 by 10                                         #solved
-7) moogle = 20, harry = 60                                                    #solved
-    - find a way to randomize appearance                                      #solved
-    - set different scores                                                    #solved
-    - way to add these scores                                                 #solved
-8) have to add the total scores to a final file  (do it manually)             #solved 
-9) move the snake according to commands (find the code I deleted)             
-10) add time constraint to gameOver()
-11) wall problem is back                                                      #solved
-12) solve the coochie enter problem for trap  ^     for all 4 cases           #solved
-                                                >
-                                              \/
-'''
 
-'''
-algorithm to solve problem 3)
-- if it is going to hit itself just keep on going straight and try to move the other way next time
-- if hit dead end, go the fourth way, i.e. the only way the snake can leave
-
-'''
+    
